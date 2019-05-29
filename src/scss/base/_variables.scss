@@ -1,0 +1,105 @@
+$breakpoints: (
+        "xs-phone": 480px,
+        "phone": 768px,
+        "tablet": 1024px,
+        "desktop": 1200px,
+        "widescreen": 1800px
+);
+
+// keywords
+$media-expressions: (
+        "screen": "screen",
+        "print": "print",
+        "handheld": "handheld",
+        "landscape": "(orientation: landscape)",
+        "portrait": "(orientation: portrait)",
+        "retina2x": "(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)",
+        "retina3x": "(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)"
+);
+
+// ligatured operators ≥ ≤
+
+// Colors
+$black: #333;
+$dark-black: #000;
+$white: #fff !default;
+$skyblue: #00a0de;
+$dark: #2f2d35;
+$light-gray: #7d7d7d;
+$light-gray-2: #a09ea5;
+$medium-gray: #413d4b;
+$dark-gray: #272b2d;
+$orange: #ff7200;
+$blue: #207cde;
+
+// Fonts
+$base-font-sans-serif: "PT Sans", "Raleway", "Helvetica Neue", "Helvetica", sans-serif;
+$second-font-sans-serif: "Playfair Display", "Raleway", "Helvetica Neue", "Helvetica", serif;
+
+// Body
+$base-background-color: $white !default;
+$font-size-base: 18px !default;
+$font-weight-base: 300 !default;
+$base-line-height: 1.5 !default;
+$base-min-width: 320px !default;
+$base-color: $black !default;
+$base-font-family: $base-font-sans-serif;
+
+// Container
+$base-max-width: 1330px !default;
+$base-padding: 0 15px !default;
+
+// form
+$base-input-bg-color: $white;
+$base-form-color: $medium-gray;
+$base-form-border-radius: none;
+$form-element-padding: 10px 20px !default;
+$form-element-border-color: $light-gray-2 !default;
+$form-element-focus-border-color: $orange !default;
+$form-element-font-size: 16px !default;
+$form-element-line-height: 1 !default;
+$form-element-font-weight: 300 !default;
+$placeholder-color: $light-gray-2 !default;
+$placeholder-hover-color: $orange;
+
+// Links
+$base-link-color: $black !default;
+$base-link-font-weight: 400 !default;
+$base-link-hover-color: $orange !default;
+
+// Buttons
+$btn-color: $dark-black !default;
+$btn-border-radius: 0 !default;
+$btn-padding: 12px 10px !default;
+$btn-font-size: 14px !default;
+$btn-font-weight: 500 !default;
+$btn-line-height: 1 !default;
+$btn-background-color: $white;
+$btn-min-width: 162px;
+$btn-border: 2px solid $orange;
+$btn-form-min-width: 126px;
+$btn-form-border-radius: 4px;
+$btn-form-background: transparent;
+$btn-form-border: 1px solid $blue;
+$btn-form-color: $white;
+$btn-form-padding: 8px 10px;
+
+// Headers
+$h1-font-size: 44px !default;
+$h2-font-size: 40px !default;
+$h3-font-size: 24px !default;
+$h4-font-size: 22px !default;
+$h5-font-size: 18px !default;
+$h6-font-size: 14px !default;
+$headings-line-height: 1.2;
+$headings-font-family: $base-font-family;
+
+// blockquote
+$blockquote-color: $white;
+$blockquote-font-size: 16px;
+$blockquote-font-family: $second-font-sans-serif;
+$blockquote-font-weight: 400;
+$blockquote-opacity: .85;
+$blockquote-margin:  0 0 43px;
+$blockquote-line-height: 1.7;
+$blockquote-padding: 62px 0 0;

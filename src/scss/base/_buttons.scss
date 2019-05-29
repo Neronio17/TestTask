@@ -1,0 +1,46 @@
+.btn {
+  background: $btn-background-color;
+  color: $btn-color;
+  outline: none;
+  border: $btn-border;
+  padding: $btn-padding;
+  min-width: $btn-min-width;
+  cursor: pointer;
+  transition: .3s background linear, .3s color linear, .3s border linear;
+  text-transform: uppercase;
+  font-size: $btn-font-size;
+  border-radius: $btn-border-radius;
+
+  &:hover {
+    background: $orange;
+    color: $white;
+  }
+
+  &-form {
+    min-width: $btn-form-min-width;
+    background: $btn-form-background;
+    border-radius: $btn-form-border-radius;
+    border: $btn-form-border;
+    color: $btn-form-color;
+    padding: $btn-form-padding;
+
+    &:hover {
+      background: $orange;
+      border-color: $orange;
+    }
+  }
+
+  &-blue {
+    background: $blue;
+  }
+
+  &-disabled {
+    cursor: auto;
+    border-color: #ff9575;
+    color: $medium-gray;
+    &:hover {
+      background-color: transparent;
+      color: $medium-gray;
+    }
+  }
+}

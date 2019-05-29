@@ -1,0 +1,12 @@
+.stat {
+  max-width: 300px;
+  font-size: 15px;
+
+  span {
+    display: block;
+
+    &:not(:last-child) {
+      margin: 0 0 15px;
+    }
+  }
+}

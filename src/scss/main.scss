@@ -1,0 +1,31 @@
+@import "vendor/normalize";
+@import "vendor/include-media";
+@import "vendor/icomoon";
+
+@import "sections/section-news";
+@import "sections/section-gallery";
+@import "sections/section-info";
+@import "sections/section-vacancies";
+
+@import "base/variables";
+@import "base/reset";
+@import "base/mixins";
+@import "base/typography";
+@import "base/container";
+@import "base/buttons";
+@import "base/form";
+@import "base/blockquote";
+@import "base/row";
+
+@import "layout/wrapper";
+@import "layout/main";
+@import "layout/header";
+@import "layout/footer";
+
+@import "components/nav";
+@import "components/button-wrapper";
+@import "components/section-users";
+@import "components/logo";
+@import "components/stat";
+@import "components/user-block";
+
