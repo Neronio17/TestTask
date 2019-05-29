@@ -21,8 +21,12 @@ export class GetUsers {
     getJson() {
         $.ajax({
            type: 'GET',
-           cache: false,
-           url: 'http://gingerbit.services/generated.json',
+            headers: {
+                'Access-Control-Allow-Origin': '*'
+            },
+           withCredentials: true,
+           crossDomain: true,
+           url: 'https://cors-anywhere.herokuapp.com/http://gingerbit.services/generated.json',
            success: (response) => {
                this.arrayIterations(response);
                this.appendStat(response);
@@ -33,7 +37,6 @@ export class GetUsers {
     arrayIterations(resp) {
         resp.forEach((item) => {
             this.appendUsers(item);
-            console.log(item);
         });
     }
 
