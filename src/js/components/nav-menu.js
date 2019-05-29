@@ -8,6 +8,7 @@ export class NavMenu {
    addclass() {
        this.nav_opener.on('click', () => {
            this.nav.toggleClass('nav-active');
+           $('body').toggleClass('scroll-none');
        })
    }
 }
